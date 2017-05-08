@@ -83,11 +83,11 @@ public class Paddle implements Runnable{
    System.out.println("Please enter a Valid ID in paddle contructor");
    break;
   case 1:
-   g.setColor(Color.CYAN);
+   g.setColor(Color.RED);
    g.fillRect(paddle.x, paddle.y, paddle.width, paddle.height);
    break;
   case 2:
-   g.setColor(Color.pink);
+   g.setColor(Color.GREEN);
    g.fillRect(paddle.x, paddle.y, paddle.width, paddle.height);
    break;
   }
