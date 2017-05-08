@@ -23,7 +23,7 @@ public class Pong extends JFrame {
  
  //constructor for window
  public Pong() {
-  this.setTitle("Pong!");
+  this.setTitle("Sean Pong!");
   this.setSize(screenSize);
   this.setResizable(false);
   this.setVisible(true);
