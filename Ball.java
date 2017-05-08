@@ -49,7 +49,7 @@ public class Ball implements Runnable {
  }
  
  public void draw(Graphics g) {
-  g.setColor(Color.WHITE);
+  g.setColor(Color.BLUE);
   g.fillRect(ball.x, ball.y, ball.width, ball.height);
  }
  
